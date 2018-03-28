@@ -7,3 +7,11 @@
   margin-top: 10px !important;
   margin-bottom: 20px !important;
 }
+
+.center-subcontent {
+	text-align: center;
+}
+
+.divider {
+	margin-top: 200px 
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './Home';
-import DynamicPage from './DynamicPage';
+import NextPage from './NextPage';
 import NoMatch from './NoMatch';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <div>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/dynamic" component={DynamicPage} />
+          <Route exact path="/next" component={NextPage} />
           <Route component={NoMatch} />
         </Switch>
       </div>

@@ -6,7 +6,7 @@ import Layout from './Layout';
 const Home = () => {
   return (
     <Layout>
-      <p>Hello World of React and Webpack!!</p>
+      <p>Hello World of React and Webpack !!</p>
       <p>
         <Link to="/next">Navigate to Next Page</Link>
       </p>
